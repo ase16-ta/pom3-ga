@@ -17,6 +17,7 @@
 from __future__ import print_function,division
 import sys, os
 sys.path.append(os.path.abspath("."))
+sys.dont_write_bytecode = True
 __author__ = 'george'
 
 def gt(a, b): return a>b
